@@ -19,9 +19,9 @@ time, mark, audio, video {
     vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
+/*article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-    display: block;
+    display: block;*/
 }
 body {
     line-height: 1;
@@ -55,7 +55,7 @@ table {
  /* TB LR */
  margin: 0 auto;
 }/* header */header nav {
- display: inline-block;
+/* display: inline-block;*/
  width: 691px;
  vertical-align: top;
  margin-top: 35px;
@@ -91,7 +91,7 @@ table {
  background: black;
  color: white;
 }.cta img {
- display: inline-block;
+ /*display: inline-block;*/
  margin-top: 69px;
 }.main-content {
  border-top: 1px solid black;
@@ -101,7 +101,7 @@ table {
  padding: 0 10px;
 }.main-content .top-content .text-content {
  width: 410px;
- display: inline-block;
+ /*display: inline-block;*/
  margin-right: 34px;
 }.main-content .top-content .text-content:last-child {
  margin-right: 0;
@@ -112,7 +112,7 @@ table {
  padding: 0 10px;
 }.main-content .bottom-content .text-content {
  width: 275px;
- display: inline-block;
+ /*display: inline-block;*/
  margin-right: 12px;
 }.main-content .bottom-content .text-content:last-child {
  margin-right: 0;
@@ -127,4 +127,62 @@ table {
  text-align: center;
  font-size: 14px;
 }
+header {
+	display:flex;
+
+}
+.cta{
+	display:flex;
+}
+.top-content{
+	display:flex;
+}
+.botthom-content{
+	display:flex;
+}
+.services-header-img{
+	margin: 25px 0;
+}
+h2 {
+	font-size: 24px;
+}
+h3 {
+    font-size: 16px;
+}
+.serviceBox{
+    background: #EEE;
+    padding: 20px 20px;
+    margin: 20px 0;
+    border: 1px solid black;
+    width: 45%;
+}
+.serviceBoxes{
+    display:flex;;
+	justify-content:space-around;
+    border-top:3px solid black;
+    border-bottom:3px solid black;
+    margin-top:25px;
+    padding: 30px o;
+}
+.serviceBoxes button:hover {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 12px;
+    background: white;
+    margin-top: 15px;
+    padding: 8px 40px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+}
+.serviceBoxes button:hover {
+    background: lightgrey;
+    font-weight: bold;
+    cursor: pointer;
+}
+.about {
+    display:flex;
+
+}
+
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
